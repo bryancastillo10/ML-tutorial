@@ -43,7 +43,7 @@ for _ in range(30):
     if acc > best:
         # Saving the model
         best = acc
-        with open("studentmodel.pickle", "wb") as f:
+        with open("model/studentmodel.pickle", "wb") as f:
             pickle.dump(linear, f)
 
 
