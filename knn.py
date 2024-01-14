@@ -30,7 +30,7 @@ x_train, x_test, y_train, y_test = sklearn.model_selection.train_test_split(
     x, y, test_size=0.1
 )
 
-# Algorithm for K-Nearest Neighbors
+# Implement K-Nearest Neighbors Algorithm
 model = KNeighborsClassifier(n_neighbors=9)
 model.fit(x_train, y_train)
 acc = model.score(x_test, y_test)

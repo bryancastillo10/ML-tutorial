@@ -34,7 +34,7 @@ for _ in range(30):
         x, y, test_size=0.1
     )
 
-    # Algorithm for Linear Regression
+    # Implement Linear Regression Model
     linear = linear_model.LinearRegression()
     linear.fit(x_train, y_train)
     acc = linear.score(x_test, y_test)
